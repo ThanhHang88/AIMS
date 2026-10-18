@@ -1,8 +1,10 @@
-public class Aims {
+package Aims;
+
+public class aims {
     public static void main(String[] args) {
-        //Create a new Cart
+        //Create a new Aims.Store.Cart
         Cart anOrder = new Cart();
-        //Create new dvd objects and add them to the Cart
+        //Create new dvd objects and add them to the Aims.Store.Cart
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King",
                 "Animation", "Roger Allers", 87, 19.95f);
         anOrder.addDigitalVideoDisc(dvd1);
